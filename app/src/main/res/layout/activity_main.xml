@@ -24,20 +24,22 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/text_action"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/lemon_select"
-        android:textSize="18sp"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/image_lemon_state"/>
+            android:id="@+id/text_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lemon_select"
+            android:textSize="24sp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/image_lemon_state"
+            android:fontFamily="sans-serif" />
 
     <ImageView
         android:id="@+id/image_lemon_state"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+            android:src="@drawable/lemon_tree"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
